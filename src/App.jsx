@@ -23,7 +23,6 @@ function App() {
         },
       })
       .then((response) => {
-        console.log(response.data);
         setValues(response.data);
         setIsValid(false);
       });
@@ -46,7 +45,7 @@ function App() {
 
   return (
     <div>
-      <Panel header="Header">
+      <Panel header="Clock Generator">
         <span className="p-float-label">
           <InputText
             id="username"
