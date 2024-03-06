@@ -1,8 +1,10 @@
-# React + Vite
+# React + Axios Digital Clock App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![FireShot Capture 003 - React clock Generator - localhost](https://github.com/seyitbugraerden/React-DigitalClockApp/assets/154025499/0935985f-dc63-4fd6-8a1b-93b9174384c5)
 
-Currently, two official plugins are available:
+![FireShot Capture 005 - Clock App - localhost](https://github.com/seyitbugraerden/React-DigitalClockApp/assets/154025499/7afa5833-54de-4981-b7c6-d058c08a4799)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+![FireShot Capture 004 - Clock App - localhost](https://github.com/seyitbugraerden/React-DigitalClockApp/assets/154025499/49d06ed6-2f02-4b3b-a777-ddd4b60c5b48)
+
