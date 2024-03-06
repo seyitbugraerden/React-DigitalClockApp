@@ -45,37 +45,45 @@ function App() {
 
   return (
     <div>
-      <Panel header="Clock Generator">
+      <Panel header="Digital Clock">
         <span className="p-float-label">
           <InputText
             id="username"
             value={selectedCity}
             onChange={handleChange}
           />
-          <label htmlFor="username">Select City</label>
+          <label htmlFor="username">City Name</label>
         </span>
         <br />
         <button onClick={searchTime}>Search</button>
         <br /> <br />
         {isValid ? (
-          <ProgressSpinner
-            style={{ width: "50px", height: "50px" }}
-            strokeWidth="4"
-            fill="var(--surface-ground)"
-            animationDuration="1s"
-          />
-        ) : (
-          values.hour !== undefined && (
-            <>
-              <h2>
-                {values.hour} : {values.minute} : {values.second}
-              </h2>
-              <p>
-                {values.day_of_week},{values.day}
-              </p>
-            </>
-          )
-        )}
+  selectedCity !== "" ? (
+    <ProgressSpinner
+      style={{ width: "50px", height: "50px" }}
+      strokeWidth="4"
+      fill="var(--surface-ground)"
+      animationDuration="1s"
+    />
+  ) : (
+    values !== "" && (
+      <p>Undefined City</p>
+    )
+  )
+) : (
+  values.hour !== undefined && (
+    <>
+      <h2>
+        {values.hour} : {values.minute} : {values.second}
+      </h2>
+      <p>
+        {values.day_of_week}, {values.day}
+      </p>
+    </>
+  )
+)}
+
+
       </Panel>
     </div>
   );
