@@ -1,4 +1,4 @@
-# React + Axios Digital Clock App
+# React | PrimeReact | Axios | Digital Clock App
 
 ![FireShot Capture 003 - React clock Generator - localhost](https://github.com/seyitbugraerden/React-DigitalClockApp/assets/154025499/0935985f-dc63-4fd6-8a1b-93b9174384c5)
 
